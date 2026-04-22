@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-03 17:21:47.927107",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_aeqv",
+  "test_case_id",
+  "test_description",
+  "expected_result",
+  "actual_result",
+  "status",
+  "comments",
+  "evidence_screenshot",
+  "severity",
+  "linked_issue"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_aeqv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "test_case_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+  "label": "Test Case ID"
+  },
+  {
+   "fieldname": "test_description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+  "label": "Test Description"
+  },
+  {
+   "fieldname": "expected_result",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+  "label": "Expected Result"
+  },
+  {
+   "fieldname": "actual_result",
+   "fieldtype": "Small Text",
+   "label": "Actual Result"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "evidence_screenshot",
+   "fieldtype": "Attach Image",
+   "label": "Evidence Screenshot"
+  },
+  {
+   "fieldname": "severity",
+   "fieldtype": "Select",
+   "label": "Severity"
+  },
+  {
+   "fieldname": "linked_issue",
+   "fieldtype": "Link",
+   "label": "Linked Issue",
+   "options": "QA Checklist Item"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-04-02 17:37:18.053525",
+ "modified_by": "Administrator",
+ "module": "QA Management",
+ "name": "QA Checklist Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
