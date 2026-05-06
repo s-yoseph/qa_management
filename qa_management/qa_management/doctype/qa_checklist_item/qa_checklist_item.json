@@ -45,11 +45,19 @@
    "fieldtype": "Small Text",
    "label": "Actual Result"
   },
+    {
+     "fieldname": "tested_by",
+     "fieldtype": "Link",
+     "label": "Tested By",
+     "options": "User",
+     "in_list_view": 1
+    },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Status"
+   "label": "Status",
+   "options": "Pass\nFail\nIn Progress"
   },
   {
    "fieldname": "comments",
@@ -64,7 +72,8 @@
   {
    "fieldname": "severity",
    "fieldtype": "Select",
-   "label": "Severity"
+    "label": "Severity",
+    "options": "Low\nMedium\nHigh\nCritical"
   },
   {
    "fieldname": "linked_issue",

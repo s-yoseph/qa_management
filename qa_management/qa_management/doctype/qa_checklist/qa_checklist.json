@@ -39,12 +39,13 @@
    "fieldname": "tested_by",
    "fieldtype": "Link",
    "label": "Tested By",
-   "options": "User Email"
+    "options": "User"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
-   "label": "Status"
+   "label": "Status",
+   "options": "In Progress\nPassed\nFailed"
   },
   {
    "fieldname": "checklist_items",
