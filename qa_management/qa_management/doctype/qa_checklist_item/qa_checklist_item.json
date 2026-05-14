@@ -12,10 +12,10 @@
   "expected_result",
   "actual_result",
   "status",
-  "comments",
   "evidence_screenshot",
   "severity",
-  "linked_issue"
+  "linked_issue",
+  "tested_by"
  ],
  "fields": [
   {
@@ -26,43 +26,42 @@
    "fieldname": "test_case_id",
    "fieldtype": "Data",
    "in_list_view": 1,
-  "label": "Test Case ID"
+   "label": "Test Case ID",
+   "reqd": 1
   },
   {
    "fieldname": "test_description",
    "fieldtype": "Small Text",
    "in_list_view": 1,
-  "label": "Test Description"
+   "label": "Test Description",
+   "reqd": 1
   },
   {
    "fieldname": "expected_result",
    "fieldtype": "Small Text",
    "in_list_view": 1,
-  "label": "Expected Result"
+   "label": "Expected Result",
+   "reqd": 1
   },
   {
    "fieldname": "actual_result",
    "fieldtype": "Small Text",
-   "label": "Actual Result"
+   "label": "Actual Result",
+   "reqd": 1
   },
-    {
-     "fieldname": "tested_by",
-     "fieldtype": "Link",
-     "label": "Tested By",
-     "options": "User",
-     "in_list_view": 1
-    },
+  {
+   "fieldname": "tested_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tested By",
+   "options": "User"
+  },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
-   "options": "Pass\nFail\nIn Progress"
-  },
-  {
-   "fieldname": "comments",
-   "fieldtype": "Small Text",
-   "label": "Comments"
+   "options": "Pass\nFail\nPending"
   },
   {
    "fieldname": "evidence_screenshot",
@@ -72,12 +71,12 @@
   {
    "fieldname": "severity",
    "fieldtype": "Select",
-    "label": "Severity",
-    "options": "Low\nMedium\nHigh\nCritical"
+   "label": "Severity",
+   "options": "Low\nMedium\nHigh\nCritical"
   },
   {
    "fieldname": "linked_issue",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "label": "Linked Issue",
    "options": "QA Checklist Item"
   }
@@ -86,7 +85,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-04-02 17:37:18.053525",
+ "modified": "2026-05-14 14:39:59.189589",
  "modified_by": "Administrator",
  "module": "QA Management",
  "name": "QA Checklist Item",

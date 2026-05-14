@@ -5,6 +5,19 @@ app_description = "toring"
 app_email = "devteam@mmcy.com"
 app_license = "mit"
 
+add_to_apps_screen = [
+    {
+        "name": "qa_management",
+        "title": "QA Management",
+        "route": "/app/qa-management", #
+        "logo": "/assets/qa_management/js/qa_logo.png", # Optional: if you have a logo
+    }
+]
+
+fixtures = [
+    {"dt": "Client Script", "filters": [["module", "=", "QA Management"]]},
+    {"dt": "Custom Field", "filters": [["dt", "=", "QA Checklist Item"]]}
+]
 # Apps
 # ------------------
 

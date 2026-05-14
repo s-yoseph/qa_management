@@ -7,10 +7,10 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-    "template_name",
-    "module",
-    "template_items_section",
-    "template_items"
+  "template_name",
+  "module",
+  "template_items_section",
+  "template_items"
  ],
  "fields": [
   {
@@ -22,13 +22,14 @@
    "reqd": 1,
    "unique": 1
   },
-    {
-     "fieldname": "module",
-     "fieldtype": "Link",
-     "label": "Module",
-     "options": "Module Def",
-     "in_list_view": 1
-    },
+  {
+   "fieldname": "module",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Module",
+   "options": "Module Def",
+   "reqd": 1
+  },
   {
    "fieldname": "template_items_section",
    "fieldtype": "Section Break",
@@ -39,13 +40,14 @@
    "fieldname": "template_items",
    "fieldtype": "Table",
    "label": "template_items",
-   "options": "QA Checklist Template Item"
+   "options": "QA Checklist Template Item",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-12 19:14:04.042773",
+ "modified": "2026-05-14 14:03:28.670875",
  "modified_by": "Administrator",
  "module": "QA Management",
  "name": "QA Checklist Template",

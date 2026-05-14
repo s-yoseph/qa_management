@@ -8,6 +8,7 @@
   "section_break_cshd",
   "amended_from",
   "checklist_template",
+  "title",
   "date",
   "tested_by",
   "status",
@@ -39,31 +40,36 @@
    "fieldname": "tested_by",
    "fieldtype": "Link",
    "label": "Tested By",
-    "options": "User"
+   "options": "User"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "In Progress\nPassed\nFailed"
+   "options": "Pending\nPassed\nFailed"
   },
   {
    "fieldname": "checklist_items",
    "fieldtype": "Table",
    "label": "Checklist Items",
-    "options": "QA Checklist Item"
+   "options": "QA Checklist Item"
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-04-02 17:08:06.633897",
+ "modified": "2026-05-13 14:50:46.635522",
  "modified_by": "Administrator",
  "module": "QA Management",
  "name": "QA Checklist",
