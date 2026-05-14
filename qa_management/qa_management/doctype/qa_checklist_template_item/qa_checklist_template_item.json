@@ -23,6 +23,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Test Case ID",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -54,7 +55,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-05-14 18:52:22.734715",
+ "modified": "2026-05-14 19:28:28.880397",
  "modified_by": "Administrator",
  "module": "QA Management",
  "name": "QA Checklist Template Item",
