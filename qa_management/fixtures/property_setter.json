@@ -1,0 +1,18 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "QA Checklist",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "checklist_template",
+  "is_system_generated": 0,
+  "modified": "2026-03-19 18:07:42.670232",
+  "module": null,
+  "name": "QA Checklist-checklist_template-reqd",
+  "property": "reqd",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ }
+]

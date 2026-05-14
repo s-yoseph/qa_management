@@ -15,8 +15,22 @@ add_to_apps_screen = [
 ]
 
 fixtures = [
-    {"dt": "Client Script", "filters": [["module", "=", "QA Management"]]},
-    {"dt": "Custom Field", "filters": [["dt", "=", "QA Checklist Item"]]}
+    {"dt": "Workspace", "filters": [["module", "=", "QA Management"]]},    {
+        "dt": "Client Script",
+        "filters": [["dt", "in", ["QA Checklist", "Test Case"]]]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [["doc_type", "in", ["QA Checklist", "Test Case"]]]
+    },
+    {
+        "dt": "Custom Field", 
+        "filters": [["dt", "in", ["QA Checklist", "Test Case"]]]
+    },
+    {
+        "dt": "Workspace",
+        "filters": [["name", "=", "QA Management"]]
+    }
 ]
 # Apps
 # ------------------
